@@ -1,0 +1,16 @@
+{
+  "name": "wp-theme-kit",
+  "version": "0.1.0",
+  "description": "A feature plugin to add advanced color palette management to the WordPress Site Editor.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/wp-scripts build",
+    "start": "node_modules/.bin/wp-scripts start",
+    "test": "node_modules/.bin/wp-scripts test-unit-js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.2.0"
+  },
+  "author": "",
+  "license": "GPL-2.0-or-later"
+}
